@@ -1,0 +1,43 @@
+body {
+    font: normal 10pt Arial;
+    background-color: aqua;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: blue;
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    padding: 15px;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+    overflow: hidden;
+
+}
+div#res {
+    text-align: center;
+
+}
+
+div#img {
+    margin-top: 10px;
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    padding: 10px;
+    color: blueviolet;
+    text-align: center;
+}
+
+h1 {
+    color: brown;
+}

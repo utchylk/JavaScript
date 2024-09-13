@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lula</title>
+    <style>
+        body {
+            font: normal 15pt Arial;
+            color: blanchedalmond;
+            background-color: blue;
+        }
+        div#res {
+            color: chartreuse;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Checagem de brasileiros</h1>
+    País que nasceu: <input type="text" name="paises" id="paises">
+    <input type="button" value="verificar" onclick="verificar()">
+    <div id="res"></div>
+    <script>
+        function verificar() {
+            var país = window.document.getElementById('paises').value.trim().toUpperCase();
+            var res = window.document.getElementById('res')
+            res.innerText = `Você nasceu em ${país}. `
+            if (país == 'BRASIL') {
+                res.innerHTML += 'Você é brasileiro.';
+            }
+            else {
+                res.innerHTML += 'Você é estrangeiro.';
+            }
+        }
+    </script>
+
+</body>
+</html>

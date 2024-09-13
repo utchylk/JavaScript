@@ -1,0 +1,30 @@
+body {
+    background-color: aquamarine;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-color: #0000ff;
+    margin: 0 auto;
+    width: 540px;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.386);
+}
+
+section {
+    margin: 0 auto;
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.278);
+}
+
+footer {
+    text-align: center;
+}
